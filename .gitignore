@@ -1,0 +1,14 @@
+.svn
+*.pdf
+*.png
+*.bz2
+BLD
+WORK
+opa
+*exe
+cpp.fcm
+cpp.history
+arch_nemo.fcm
+arch_tools.fcm
+arch.history
+full_key_list.txt
