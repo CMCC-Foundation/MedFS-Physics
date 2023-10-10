@@ -1,0 +1,64 @@
+{
+    "description": "<p><strong>The wave model WWIII</strong></p> <p>The wave model WaveWatchIII (WWIII) v3.14 implemented in the Mediterranean Sea is forced by the same ECMWF atmospheric fields that force the hydrodynamic model. WWIII solves the wave action balance equation in slowly varying depth domain and currents considering a superposition of the following source/sink terms: wind input growing actions (based on Janssen’s quasi-linear theory of wind-wave generation), a dissipation source term and nonlinear resonant wave-wave interactions modelled using the Discrete Interaction Approximation. The spectral discretization has been achieved through 30 frequency bins ranging from 0.05 Hz (20 s) to 0.79 Hz (1.25 s) and 24 equally distributed directional bins. The wave model takes into consideration the surface currents for wave refraction but assumes no interactions with the ocean bottom.</p> <p>&nbsp;</p> <p><strong>NEMO-WWIII coupling</strong></p> <p>The wave-current coupling is achieved as following: NEMO provides every hour estimates of Air-Sea Temperature difference and Sea Surface Currents to WWIII, which returns back to NEMO the neutral component of the Surface Drag Coefficient taking into account the wave induced effect at the air-sea interface (Clementi et al., 2017).</p>",
+    "title": "MedFS Waves module",
+    "license": "Other",
+    "upload_type": "software",
+    "creators": [
+        {
+            "affiliation": "Ocean Modeling and Data Assimilation Division, Centro Euro-Mediterraneo sui Cambiamenti Climatici, Italy",
+            "name": "Clementi, Emanuela",
+            "orcid": "0000-0002-5752-1849"
+        },
+        {
+            "affiliation": "Ocean Modeling and Data Assimilation Division, Centro Euro-Mediterraneo sui Cambiamenti Climatici, Italy",
+            "name": "Goglio, Anna Chiara",
+            "orcid": "0000-0002-9024-7394"
+        },
+        {
+            "affiliation": "Istituto Nazionale di Geofisica e Vulcanologia, Italy",
+            "name": "Delrosso, Damiano",
+            "orcid": "0000-0002-3646-9893"
+        },
+        {
+            "affiliation": "Ocean Modeling and Data Assimilation Division, Centro Euro-Mediterraneo sui Cambiamenti Climatici, Italy",
+            "name": "Escudier, Romain",
+            "orcid": "0000-0002-8532-0024"
+        },
+        {
+            "affiliation": "Ocean Predictions and Applications Division, Centro Euro-Mediterraneo sui Cambiamenti Climatici, Italy",
+            "name": "Drudi, Massimiliano",
+            "orcid": "0000-0002-9951-740X"
+        },
+        {
+            "affiliation": "Ocean Predictions and Applications Division, Centro Euro-Mediterraneo sui Cambiamenti Climatici, Italy",
+            "name": "Grandi, Alessandro",
+            "orcid": "0000-0002-7372-3184"
+        },
+        {
+            "affiliation": "Ocean Predictions and Applications Division, Centro Euro-Mediterraneo sui Cambiamenti Climatici, Italy",
+            "name": "Mariani, Antonio",
+            "orcid": "0000-0001-5720-3069"
+        },
+        {
+            "affiliation": "Ocean Modeling and Data Assimilation Division, Centro Euro-Mediterraneo sui Cambiamenti Climatici, Italy",
+            "name": "Masina, Simona",
+            "orcid": "0000-0001-6273-7065"
+        },
+        {
+            "affiliation": "Ocean Predictions and Applications Division, Centro Euro-Mediterraneo sui Cambiamenti Climatici, Italy",
+            "name": "Coppini, Giovanni",
+            "orcid": "0000-0003-3664-3983"
+        },
+        {
+            "affiliation": "Department of Physics and Astronomy, University of Bologna, Italy",
+            "name": "Pinardi, Nadia",
+            "orcid": "0000-0003-4765-0775"
+        }
+    ],
+    "access_right": "open",
+    "version": "1.0",
+    "references": [
+        "Clementi E., Oddo P., Drudi M., Pinardi N., Korres G. and Grandi A. (2017). Coupling hydrodynamic and wave models: first step and sensitivity experiments in the Mediterranean Sea. Ocean Dynamics. doi: https://doi.org/10.1007/s10236-017-1087-7",
+        "Clementi, E., Pistoia, J., Escudier, R., Delrosso, D., Drudi, M., Grandi, A.,Lecci R., Cretí S., Ciliberti S., Coppini G., Masina S., Pinardi, N. 2019. Mediterranean Sea Analysis and Forecast (CMEMS MED-Currents, EAS5 system) [Data set]. Copernicus Monitoring Environment Marine Service (CMEMS): https://doi.org/10.25423/CMCC/MEDSEA_ANALYSIS_FORECAST_PHY_006_013_EAS5"
+    ]
+}
